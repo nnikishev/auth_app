@@ -15,7 +15,7 @@ from os import getenv
 DEBUG = getenv("DEBUG", True)
 LOGGER_NAME = getenv("LOGGER_NAME", "schema_editor")
 LOG_LEVEL = getenv("LOG_LEVEL", "DEBUG" if DEBUG else "ERROR")
-CORS_ORIGIN_WHITELIST = ["http://localhost:3000"]
+CORS_ORIGIN_WHITELIST = ["http://localhost:3000", "http://194.87.213.123/"]
 
 LOGGING = {
     "version": 1,
